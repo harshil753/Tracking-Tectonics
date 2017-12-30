@@ -29,7 +29,7 @@ d3.json(link,function(data){
                 color: chooseColor(features.properties.mag),
                 weight: 1,
                 opacity: 1,
-                fillOpacity: 0.8
+                fillOpacity: 0.5
             }
         },
         pointToLayer: function (features, latlng) {
